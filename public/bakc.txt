@@ -1,0 +1,59 @@
+<div id="chat-container">
+        <div id="accions"></div>
+        <div id="chat-window">
+            <div id="output"></div>
+        </div>
+    </div>
+    <input type="text" id="message" placeholder="Message" autofocus >
+    <button id="send" type="submit">ENVIAR</button>
+
+el que llego
+                <ul class="p-0">
+                    <li>
+                        <div class="row comments mb-2">
+                            <div class="col-md-2 col-sm-2 col-3 text-center user-img">
+                                <img id="profile-photo" src="http://nicesnippets.com/demo/man01.png"
+                                    class="rounded-circle" />
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-9 comment rounded mb-2">
+                                <h4 class="m-0"><a href="#">Tye Simmon</a></h4>
+                                <time class="text-white ml-3">1 month ago</time>
+                                <like></like>
+                                <p class="mb-0 text-white">Thank you for visiting all the way from New York.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+mio 
+                    <ul class="p-0">
+                        <li>
+                            <div class="row comments mb-2">
+                                <div
+                                    class="col-md-2 offset-md-2 col-sm-2 offset-sm-2 col-3 offset-1 text-center user-img">
+                                    <img id="profile-photo" src="http://nicesnippets.com/demo/man04.png"
+                                        class="rounded-circle" />
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-8 comment rounded mb-2">
+                                    <h4 class="m-0"><a href="#">james Cordon</a></h4>
+                                    <time class="text-white ml-3">1 min ago</time>
+                                    <like></like>
+                                    <p class="mb-0 text-white">Thank you for visiting from an unknown location.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    @media (min-width: 320px) and (max-width: 480px){
+    .comments .comment h4 {
+    font-size: 12px;
+    }
+    .comments .comment p{
+    font-size: 11px;
+    }
+    .comment-box-main .send-btn button{
+    margin-left: 5px;
+    }
+    }
